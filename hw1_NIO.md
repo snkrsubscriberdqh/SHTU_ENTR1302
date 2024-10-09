@@ -86,8 +86,8 @@
 
 ### Reference：
 
->1. 《蔚能成功发行全国首单绿色新能源电池资产ABS》，上海证券报，2022年5月.
->2. 《武汉蔚能电池资产有限公司2022年度第一期绿色电池资产支持票据募集说明书》, 2022年4月.
+>1. 《蔚能成功发行全国首单绿色新能源电池资产ABS》，上海证券报，2022.5.
+>2. 《武汉蔚能电池资产有限公司2022年度第一期绿色电池资产支持票据募集说明书》, 2022.4.
 >3. "Battery-Swapping Israeli Startup Better Place Is Dead." Jalopnik, 2013.
 >4. Lambert, Fred. "Tesla's Total Debt Is Now $19 Billion." Electrek, 2017.
 >5. Contemporary Amperex Technology Co., Limited (CATL) Annual Report 2021.
