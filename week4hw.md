@@ -38,6 +38,36 @@ g* will reduce by 33.3% to 36%.
 
 ### d. Do some changes have greater impact on the sustainable growth rate than others? Are the effectslinear or nonlinear? Explain your findings.
 
-A software start‐up, Lutoj, Inc., is developing a new smart home software product. Lutoj believesrevenue must reach \$5 million in Year 3 for the product to be viable. Lutoj’s operating margin(EBIT/Sales) is 20%, the tax rate is 30%, and asset turnover is 5X. The founders have a total of \$200,000for initial equity funding. Assume Lutoj will pay no dividend.a. With no other financing, will the \$200,000 of founder investment be sufficient to achieve the Year 3sales target? If not, what level of initial equity investment would be required?b. Assume Lutoj cannot raise additional equity, but will use debt to achieve the scale necessary toreach the Year 3 sales target. They can borrow at an 8% annual interest rate before tax. How muchdebt will initially be required?
+### A software start‐up, Lutoj, Inc., is developing a new smart home software product. Lutoj believesrevenue must reach \$5 million in Year 3 for the product to be viable. Lutoj’s operating margin(EBIT/Sales) is 20%, the tax rate is 30%, and asset turnover is 5X. The founders have a total of \$200,000for initial equity funding. Assume Lutoj will pay no dividend.a. With no other financing, will the \$200,000 of founder investment be sufficient to achieve the Year 3sales target? If not, what level of initial equity investment would be required?b. Assume Lutoj cannot raise additional equity, but will use debt to achieve the scale necessary toreach the Year 3 sales target. They can borrow at an 8% annual interest rate before tax. How muchdebt will initially be required?
+suppose the debt worths m.
 
-A firm with beginning equity of \$1000, a policy of leveraging its equity with \$0.30 of debt for each $1 of equity, a before tax cost of debt of 8% per year, a corporate tax rate of 30%, and an EBIT to sales ratio of 6%, has a sales to assets ratio of 5 times, and pays no dividends. Based on its sustainable growth rate, what is its equity after two years (at the start of year 3)?
+Year1:
+NI=(0.2*5*(0.2+m)-0.08*m)*0.7
+Assets=0.2+m+NI
+Year2:
+NI=(0.2*5*(0.2+m+(0.2*5*(0.2+m)-0.08m)*0.7)-0.08*m)*0.7
+Assets=0.2+m+(0.2*5*(0.2+m)-0.08*m)*0.7+(0.2*5*(0.2+m+(0.2*5*(0.2+m)-0.08m)*0.7)-0.08*m)*0.7=1
+Solved:m=1.54
+Leverage=1.77
+
+### A firm with beginning equity of \$1000, a policy of leveraging its equity with \$0.30 of debt for each $1 of equity, a before tax cost of debt of 8% per year, a corporate tax rate of 30%, and an EBIT to sales ratio of 6%, has a sales to assets ratio of 5 times, and pays no dividends. Based on its sustainable growth rate, what is its equity after two years (at the start of year 3)?
+
+Equity=1000
+Leverage=1.3
+Interest Rate r=8%
+Tax Rate t=30%
+$\frac{EBIT}{Ssles}=6\%$
+Turnover=5
+R=100%
+\[g*=ROE*R=ROS*Turnover*Leverage*R\]
+\[=\frac{(\frac{EBIT}{Sales}*Turnover*Leverage*Equity-r(Turnover-1)Equity)(1-t)}{Equity}\cdot R\]
+
+Year1:
+\[g*=((0.06*5*1.3*1000-0.08*0.3*1000)*0.7)/1000\]
+g*=0.2562
+Equity*=(1+g*)*Equity=1256.2
+Assets=(1+g*)*Equity+(Leverage-1)*Equity=1556.2
+
+Year2:
+g*=(0.06*5*1556.2-0.08*0.3*1000)*0.7/1256.2=0.2468
+Equity*=(1+g*)*Equity=1.2468*1256.2=1566.2
